@@ -1,5 +1,6 @@
 import "./globals.css"
 import { ReactNode } from "react"
+import { Navbar } from "@/components/shared/navbar"
 
 export const metadata = {
   title: "XT4 Store",
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark">
       <body className="min-h-screen bg-background antialiased">
+        <Navbar />
         {children}
       </body>
     </html>

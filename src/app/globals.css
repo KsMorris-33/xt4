@@ -18,9 +18,9 @@ body {
 
 .neon-text {
   text-shadow:
-    0 0 5px rgb(var(--neon-primary)),
-    0 0 10px rgb(var(--neon-primary)),
-    0 0 20px rgb(var(--neon-primary));
+    0 0 4px rgb(var(--neon-primary)),
+    0 0 8px rgb(var(--neon-primary)),
+    0 0 16px rgb(var(--neon-primary));
 }
 
 .neon-border {
